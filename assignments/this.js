@@ -29,8 +29,8 @@ oldCartoons.otherfav('Rocket Power');
 // Principle 3
 // code example for New Binding
 function Bible(books) {
-    this.thegospels = books.gospel;
-    this.theepistles = books.epistle;
+    this.gospel = books.gospel;
+    this.epistle = books.epistle;
     //console.log(this);
     this.paragraph = function() {
         return `One section of the bible is gospels. Including ${this.gospel}. Another is epistles which include ${this.epistle}.`
